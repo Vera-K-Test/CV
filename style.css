@@ -1,0 +1,138 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+header {
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-photo {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+header h1 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 2em;
+}
+
+
+header h2 {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 1.5em;
+}
+
+.tagline {
+    font-size: 1.2em;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.social-links {
+    margin-top: 20px;
+}
+
+.social-link {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 20px;
+    color: #555;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover {
+    color: #333;
+}
+
+.skills {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.skills h2 {
+    margin-bottom: 10px;
+}
+
+.skills .skill-list {
+    list-style: none;
+    padding: 0;
+}
+
+.experience,
+.contact {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.experience-item, .contact {
+   margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.experience h2,
+.contact h2 {
+    margin-bottom: 10px;
+}
+
+
+.contact-button {
+    padding: 8px 15px;
+    font-size: 14px;
+    border-radius: 5px;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.experience-item h3, .contact p{
+  margin-bottom: 5px;
+}
+
+.experience .date, .contact-button {
+  display: inline-flex; /* Заставляет текст быть на одной строке */
+  margin-bottom: 5px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: linear-gradient(135deg, #2c3e50, #4ca1af);
+    color: #FFFFFF;
+    margin-top: 20px;
+}
+
